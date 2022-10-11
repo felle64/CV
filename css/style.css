@@ -1,12 +1,10 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   font-family: "Noto Sans Mono", monospace;
   margin: 0;
 }
-
 /*--------Header--------*/
 .header {
   padding: 80px;
@@ -15,18 +13,15 @@ body {
   color: white;
   position: relative;
 }
-
 .header h1 {
   font-size: 2.5rem;
 }
-
 /*--------Nav--------*/
 .navbar {
   overflow: hidden;
   background-color: #333;
   position: relative;
 }
-
 .navbar a {
   float: left;
   display: block;
@@ -35,35 +30,29 @@ body {
   padding: 14px 20px;
   text-decoration: none;
 }
-
 .navbar a:hover {
   background-color: rgb(255, 255, 255);
   color: black;
 }
-
 /*--------Experience--------*/
 .row {
   display: flex;
   flex-wrap: wrap;
 }
-
 /*--------Sidebar/left column--------*/
 .side {
   flex: 30%;
   background-color: #f1f1f1;
   padding: 20px;
 }
-
 .sidebar-text {
   font-size: 1rem;
 }
-
 .main {
   flex: 70%;
   background-color: white;
   padding: 20px;
 }
-
 /*--------Footer--------*/
 .footer {
   padding: 20px;
@@ -71,7 +60,6 @@ body {
   background-color: rgb(129, 0, 0);
   color: white;
 }
-
 /*--------Mobile--------*/
 @media screen and (max-width: 700px) {
   .row {
